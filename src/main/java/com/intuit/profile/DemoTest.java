@@ -19,7 +19,7 @@ public class DemoTest {
 
     @Test
     public void demoTest(){
-        Response response = get("http://localhost:8091/getemployee");
+        Response response = get("http://consumer:8091/getemployee");
         System.out.println(response.asString());
         Assert.assertTrue(response.getStatusCode() == 200);
     }
