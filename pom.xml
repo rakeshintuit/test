@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <testng.version>6.14.3</testng.version>
+        <testng.version>7.5.1</testng.version>
         <restassured.version>3.0.5</restassured.version>
         <slf4jVersion>1.7.25</slf4jVersion>
     </properties>
